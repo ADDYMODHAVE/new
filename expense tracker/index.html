@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense tracker </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+</head>
+
+
+<body>
+        
+    <nav class="navbar navbar-expand-lg text-bg-primary" >
+        <div class="container-fluid" >
+          
+          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+          <div>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 " id="me">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color: rgb(236, 237, 241);    padding-right: 600px;">ALL APPS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#";    padding-right: 600px;">BUS TRACKER</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#";    padding-right: 600px;">
+                  ABOUT US
+                </a>
+
+      </nav>
+             <div class="container m-5">
+
+
+        <form id="store">
+
+
+
+
+            <div class="mb-3">
+
+                        <label for="expense" class="form-label" style="color: rgb(22, 21, 21); ">Expense Amount:</label>
+                        <input type="number" id="expense" name="amount" class="form-control" required>
+
+
+            </div>
+            <div class="mb-3">
+
+                        <label for="description" class="form-label" style="color: rgb(31, 31, 30); ">Choose Description:</label>
+                        <input type="text" id="movie" name="description" class="form-control" required>
+
+
+            </div>
+            <div class="mb-3">
+
+
+                <label for="type" class="form-label" style="color: rgb(10, 10, 10); ">Choose a Category:</label>
+                <select name="selectcategory" id="type" class="form-select">
+                    <option value="movie">movie</option>
+                    <option value="fuel">fuel</option>
+                    <option value="electricity">electricity</option>
+                    <option value="food">food</option>
+
+
+                </select>
+            </div>
+
+
+            <button class="btn btn-outline-info">Add expense</button>
+
+
+        </form>
+
+        <ul id="listofamount" style="color: rgb(8, 67, 228); list-style:none; width: 543px; padding-left: 107px; text-decoration: underline; font-size: large; font-weight: bold;" class="mt-4" ></ul>
+
+        <script src="dom.js"></script>
+    </div>
+
+
+</body>
+</html>
